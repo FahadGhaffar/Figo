@@ -1,0 +1,138 @@
+@import url('./fonts.css');
+
+
+*{
+    margin: 0 auto;
+}
+:root{
+    /* theme color  */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color:#0f0f0f;
+    --white:#ffffff;
+    --midnight:#104f55;
+    
+    
+    /* gradient color */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    
+    /* font */
+    --Abel:"Abel",cursive;
+    
+    
+    --Anton: "Anton", cursive;
+    --Josefin: "Josefin", cursive;
+    --Lexend: "Lexend", cursive;
+    --Livvic: "Livvic", cursive;
+    
+}
+.padding{
+    padding: 0 20px;
+}
+/* Globle class */
+
+html,body{
+
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+   
+
+}
+h1{
+
+    font-size: 46px;
+    font-family: var(--Anton);
+    text-align: left;
+}
+a{
+ text-decoration: none;
+ color: var(--text-gray);
+
+}
+
+.flex-row{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+
+  list-style-type: none;
+}
+
+/* Globle class end */
+.nav{
+background: white;
+padding: 0 20px;
+height: 0;
+min-height: 20vh;
+overflow: hidden;
+
+
+}
+
+.nav-brand a{
+font-size: 26px;
+/* padding: 20px; */
+margin-top: 10px;
+display: block;
+/* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+
+
+}
+
+.nav-menu{
+    justify-content: space-between;
+}
+.nav-items ul{
+
+    display: flex;
+margin: 0%;
+}
+
+
+.items-link{
+padding: 20px 10px;
+font-size: 20px;
+position: relative;
+font-family: var(--Abel);
+
+}
+
+/* Header end */
+
+
+/* body content start */
+.flex-row-hero{
+
+    display: flex;
+    flex-direction: row;}
+
+.herosection{
+
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    /* object-fit: cover; */
+}
+
+.herosection > img{
+width: 700px;
+height: 700px;
+/* display: flex;
+justify-content: center; */
+
+}
+
+
+.hero_content > p{
+
+font-size: 16px;
+text-align: left;
+line-height: 20px;
+
+}

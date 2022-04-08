@@ -1,9 +1,7 @@
 @import url('./fonts.css');
 
 
-*{
-    margin: 0 auto;
-}
+
 :root{
     /* theme color  */
     --text-gray: #3f4954;
@@ -30,7 +28,9 @@
     padding: 0 20px;
 }
 /* Globle class */
-
+*{
+    margin: 0 auto;
+}
 html,body{
 
     margin: 0;
@@ -73,7 +73,9 @@ overflow: hidden;
 
 
 }
-
+.nav-brand {
+    margin-left: 278px;
+}
 .nav-brand a{
 font-size: 26px;
 /* padding: 20px; */
@@ -115,24 +117,55 @@ font-family: var(--Abel);
 
     width: 50%;
     height: 700px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    /* object-fit: cover; */
+    /* object-fit: cover;*/
 }
 
 .herosection > img{
-width: 700px;
-height: 700px;
-/* display: flex;
-justify-content: center; */
+    width: 521px;
+    height: 505px;
 
 }
 
+.hero_content{
+    width: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 277px;
+    margin-top: 98px;
 
+}
 .hero_content > p{
 
 font-size: 16px;
 text-align: left;
 line-height: 20px;
+padding-top: 18px;
+padding-bottom: 18px;
 
+}
+
+
+.hero_form > input{
+    border: none;
+    width: 200px;
+    height: 28px;
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+    /* border-radius: 5px; */
+}
+.hero_form > input:active{
+    border: none;
+    box-shadow: 0 0 6pt 0.5pt #D3D3D3;
+    /* border-radius: 5px; */
+}
+.hero_form > input::placeholder{
+
+    padding-left: 20px;
+    font-family: var(--Abel);
+}
+
+.hero_form >button{
+    height: 31px;
+    width: 104px;s
 }
